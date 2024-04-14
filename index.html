@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valery Bakery</title>
+    <style>
+        /* CSS untuk styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            width: calc(30% - 20px); /* 30% lebar layar dengan jarak margin 10px */
+            background-color: #fff;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* CSS untuk responsif */
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px); /* 50% lebar layar dengan jarak margin 10px */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product {
+                width: calc(100% - 20px); /* 100% lebar layar dengan jarak margin 10px */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vallery Bakery</h1>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Produk</a>
+    <a href="#">Tentang Kami</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<section>
+    <div class="product">
+        <img src="3.jpeg" alt="Kue 1">
+        <h2>Kue Coklat</h2>
+        <h4>Kue coklat adalah hidangan manis yang sangat disukai oleh banyak orang di seluruh dunia.</h4>
+        <p>Harga: Rp 50.000</p>
+        <button>Beli Sekarang</button>
+    </div>
+
+    <div class="product">
+        <img src="banner-nastar-1671098577137.jpg" alt="Kue 2">
+        <h2>Kue nastar</h2>
+        <h4>Kue Nastar adalah salah satu kue khas Indonesia yang terkenal dengan cita rasa manisnya dan tekstur yang lembut di dalamnya.</h4>
+        <p>Harga: Rp 60.000</p>
+        <button>Beli Sekarang</button>
+    </div>
+
+    <div class="product">
+        <img src="images.jfif" alt="Kue 3" width="100%">
+        <h2>Kue Stawbery</h2>
+        <h4>Kue strawberry adalah hidangan manis yang menggabungkan kelezatan buah strawberry segar dengan cita rasa lezat dari berbagai jenis kue.</h4>
+        <p>Harga: Rp 55.000</p>
+        <button>Beli Sekarang</button>
+    </div>
+</section>
+
+<footer>
+    <p>Vallerybakery.22@gmail.com</p>
+    <p>copy Rights © 2024 Vallery Bakery. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
